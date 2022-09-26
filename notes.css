@@ -1,0 +1,72 @@
+.mainBox {
+  width: 40%;
+  float: left;
+  height: 100vh;
+  background-color: antiquewhite;
+  padding: 4rem;
+}
+.secondBox {
+  width: 60%;
+  float: right;
+  height: 100vh;
+  background-color: wheat;
+  padding: 1rem;
+}
+.overBox {
+  position: relative;
+}
+
+.addNote {
+  position: absolute;
+  right: 0;
+  margin: 1rem;
+}
+.addButton {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.inputWrap {
+  display: flex;
+  flex-direction: column;
+}
+.noteItem {
+  background-color: whitesmoke;
+  padding: 1rem;
+  border-radius: 50px;
+  margin-block: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 2px solid black;
+}
+.listItem {
+  margin-block: 1rem;
+  list-style-type: none;
+}
+#addtxt {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  padding: 1rem;
+}
+ul li {
+  cursor: pointer;
+}
+
+.search {
+  border-radius: 20px;
+}
+#navbarNav{
+    display: flex;
+    justify-content: end;
+
+}
+.styleButton{
+    margin: 3px;
+    
+}
